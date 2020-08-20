@@ -1,20 +1,14 @@
 package main
 
 import (
-
-	// dTwitterHttp "github.com/tokopedia/dev/compfest/delivery/twitter/http"
-	dTwitterFlag "github.com/tokopedia/dev/compfest/delivery/twitter/flag"
-	// rTwitterCli "github.com/tokopedia/dev/compfest/repository/twitter/cli"
-	rTwitterFile "github.com/tokopedia/dev/compfest/repository/twitter/file"
-	uTwitterModule "github.com/tokopedia/dev/compfest/usecase/twitter/module"
+	"log"
+	// "http"
+	// dTwitterHttp "github.com/jauntyjack/compfest/delivery/twitter/http"
+	// rTwitterCli "github.com/jauntyjack/compfest/repository/twitter/cli"
+	// uTwitterModule "github.com/jauntyjack/compfest/usecase/twitter/module"
 )
 
+// program starts here
 func main() {
-	// twitterCli := rTwitterCli.New()
-	twitterFile := rTwitterFile.New()
-	twitterUsecase := uTwitterModule.New(twitterFile)
-	// dTwitterHttp.New(twitterUsecase)
-	dTwitterFlag.New(twitterUsecase)
-
-	// http.ListenAndServe(":8090", nil)
+	log.Print("Service started!")
 }

@@ -1,7 +1,7 @@
 package twitter
 
 import (
-	rTwitter "github.com/tokopedia/dev/compfest/repository/twitter"
+	rTwitter "github.com/jauntyjack/compfest/repository/twitter"
 )
 
 type repository struct {

@@ -3,8 +3,8 @@ package http
 import (
 	"net/http"
 
-	dTwitter "github.com/tokopedia/dev/compfest/delivery/twitter"
-	uTwitter "github.com/tokopedia/dev/compfest/usecase/twitter"
+	dTwitter "github.com/jauntyjack/compfest/delivery/twitter"
+	uTwitter "github.com/jauntyjack/compfest/usecase/twitter"
 )
 
 type delivery struct {

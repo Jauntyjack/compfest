@@ -1,8 +1,8 @@
 package module
 
 import (
-	rTwitter "github.com/tokopedia/dev/compfest/repository/twitter"
-	uTwitter "github.com/tokopedia/dev/compfest/usecase/twitter"
+	rTwitter "github.com/jauntyjack/compfest/repository/twitter"
+	uTwitter "github.com/jauntyjack/compfest/usecase/twitter"
 )
 
 type twitterUseCase struct {
